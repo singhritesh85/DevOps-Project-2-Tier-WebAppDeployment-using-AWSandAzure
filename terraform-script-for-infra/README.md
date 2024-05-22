@@ -5,4 +5,4 @@
 4. First of all create Azure infrastructure for that go to the directory azure-setup/main and open the file terraform.tfvars and provide the parameters as per your Azure account and run the command terraform init then terraform apply -auto-approve.
 5. Then create AWS Infrastructure for that go to the directory aws-setup/main and open the file terraform.tfvars and provide the parameters as per your AWS account and run the command terraform init then terraform apply -auto-approve
 6. Finally go to the directory connect-azure-with-aws/main and open file terraform.tfvars and provide the required parameters values as per the Configuration file you had downloaded from AWS Console for VPN Connection site-to-site.
-7. For connectivity just install netcat on any of your Azure VM using the command yum install -y nc then run the command nc -vz <endpoint for PostgreSQL RDS> 5432 or run the command nc -vz <endpoint for MySQL RDS> 3306.
+7. For connectivity just install netcat on any of your Azure VM using the command yum install -y nc then run the command nc -vz <<endpoint for PostgreSQL>> RDS> 5432 or run the command nc -vz <<endpoint for MySQL RDS>> 3306.
