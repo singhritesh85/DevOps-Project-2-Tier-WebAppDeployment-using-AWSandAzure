@@ -1,0 +1,96 @@
+trigger:
+- main
+
+resources:
+- repo: self
+
+variables:
+  imagePullSecret: 'devopsmelacr132827a7-auth'
+
+pool:
+  name: demo
+  demands:
+  - agent.name -equals demo
+
+stages:
+- stage: Build
+  displayName: Build
+  jobs:
+  - job: Build
+    displayName: Build
+    steps:
+    - task: SonarQubePrepare@5
+      inputs:
+        SonarQube: 'SonarQube'
+        scannerMode: 'Other'
+        extraProperties: |
+          # Additional properties that will be passed to the scanner, 
+          # Put one key=value per line, example:
+          # sonar.exclusions=**/*.bin
+          sonar.projectName=thoro sonar.projectKey=thoro
+          sonar.qualitygate.wait=true
+    - task: SonarQubePublish@5
+      inputs:
+        pollingTimeoutSec: '300'
+    - task: sonar-buildbreaker@8
+      inputs:
+        SonarQube: 'SonarQube'
+    - task: MavenAuthenticate@0
+      inputs:
+        artifactsFeeds: 'Maven-Feed'
+        mavenServiceConnections: 'Maven'
+    - task: Maven@4
+      inputs:
+        mavenPomFile: 'pom.xml'
+        goals: 'deploy sonar:sonar'
+        publishJUnitResults: false
+        javaHomeOption: 'JDKVersion'
+        mavenVersionOption: 'Default'
+        mavenAuthenticateFeed: false
+        effectivePomSkip: false
+        sonarQubeRunAnalysis: false
+- stage: DockerImage
+  displayName: Docker Image
+  dependsOn: Build
+  jobs:
+  - job: DockerImage
+    displayName: Docker Image
+    steps:
+    - checkout: none
+    - task: CmdLine@2
+      inputs:
+        script: |
+          docker system prune -f --all
+          docker build -t demoimage:1.01 .
+          trivy image --exit-code 0 --severity MEDIUM,HIGH demoimage:1.01
+          trivy image --exit-code 1 --severity CRITICAL demoimage:1.01
+    - task: Docker@2
+      inputs:
+        containerRegistry: 'Docker-Registry-Connection'
+        repository: 'samplewebapp'
+        command: 'buildAndPush'
+        Dockerfile: '**/Dockerfile'
+- stage: KubernetesDeployment
+  displayName: KubernetesDeployment
+  dependsOn: DockerImage
+  jobs:
+  - deployment: KubernetesDeployment
+    displayName: Kubernetes Deployment
+    environment: dev
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - checkout: none
+          - task: HelmDeploy@0
+            inputs:
+              connectionType: 'Azure Resource Manager'
+              azureSubscription: 'Azure DevOps Service Connection'
+              azureResourceGroup: 'aks-rg'
+              kubernetesCluster: 'aks-cluster'
+              namespace: 'demo'
+              command: 'upgrade'
+              chartType: 'FilePath'
+              chartPath: '/home/demo/folo'
+              releaseName: 'dexter'
+              overrideValues: 'imagePullSecrets[0].name=devopsmelacr132827a7-auth,image.repository=akscontainerregistry2405.azurecr.io/samplewebapp,image.tag=$(Build.BuildId),replicaCount=1,service.type=ClusterIP,service.port=80'
