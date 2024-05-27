@@ -4,4 +4,4 @@
 <br><br/>
 **Connection between AWS and Azure using SIte-to-Site VPN**
 <br><br/>
-![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/0b003bb4-83a3-4caa-9c3d-9f6a3f25ae3b)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/dd9f7a99-54db-43fa-b0b1-48b75b416526)
