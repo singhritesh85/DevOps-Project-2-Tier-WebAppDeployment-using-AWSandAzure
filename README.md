@@ -33,3 +33,9 @@ Adding below lines to pom.xml for storing Artifacts to Azure Artifactory
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/b51e5a2d-3c8a-4b1c-9dd4-d9fb4fc52559)
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/9fe4e40f-3ad6-46dc-8205-c4e8b793b1a0)
+<br><br/>
+Add endpoint, username and password of MySQL RDS to the file login.jsp and userRegistration.jsp as shown in the screenshot below
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/13a5164c-f0db-4916-9359-6792b6b77322)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/391a16e1-901f-44ed-a119-1fc31a2667ba)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/fb0aab1e-5e39-4add-918f-5fe3bb292d0d)
