@@ -27,3 +27,4 @@ Create three service connections as shown in the screenshot below
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/8130da15-4162-428a-be0b-ededc97562a0)
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/62e7f676-a7e6-4962-bfe3-f8bff418182e)
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/34eb5ff9-49af-44f3-99e9-d4a1a82e16b2)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/9917aee3-b5b4-47bd-beb7-b1266712d84b)
