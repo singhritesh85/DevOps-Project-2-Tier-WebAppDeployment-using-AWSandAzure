@@ -100,6 +100,13 @@ Dashboard has been imported using the ID **3119** as shown in the screenshot bel
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/53835ba3-8606-45fe-bdd0-ec0d7699d807)
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/7cfd4a93-dc88-4cda-b893-d74097ca8b23)
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/b2f56180-d33d-4546-8250-39f40935ffcf)
+<br><br/>
+You can access the application as shown below
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/a4f4c76e-5e8d-4c5a-8d4b-6f057c8dd0ce)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/afd6ac54-78b4-4cd3-8515-fa383629f4b8)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/0013bbcd-8811-461f-bf8e-39fb2ba0c316)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/00bede66-7aaf-4968-be20-d15383491b8a)
 
 
 
