@@ -10,9 +10,9 @@ metadata:
 spec:
   ingressClassName: azure-application-gateway
   tls:
-  - hosts:
-    - dexter.singhritesh85.com
-    secretName: ingress-secret
+#  - hosts:
+#    - dexter.singhritesh85.com
+  - secretName: ingress-secret
   rules:
   - host: dexter.singhritesh85.com
     http:
