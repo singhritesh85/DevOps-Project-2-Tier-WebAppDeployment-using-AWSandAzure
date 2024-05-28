@@ -19,10 +19,25 @@ kubectl create secret tls ingress-secret --key mykey.key --cert STAR_singhritesh
 **Follow below steps to make your Azure DevOps Agent ready.**
 <br><br/>
 Install git2 
-
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/daf2ba58-b88d-46a4-96b1-abe18b818cef)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/3dea3320-549f-4a9e-8a02-0590b0a63a09)
 Create a user demo and provide sudo privileges from sudoers file.
-
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/b54b918e-ae7d-4211-a444-c4b3e308756a)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/5d1d3e77-d9fa-496d-8518-f3f06617e984)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/03406d80-8dd4-4d7b-9b17-2d759e5f8970)
 Install Java-17
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/d1617f4f-1dbc-4657-b29b-69cb96ba282a)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/f82e7ff3-5db1-41c4-b3a1-c7ec69399bb2)
+<br><br/>
+Install Maven
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/f7e8b226-e2e0-4e17-9a48-94ebc3c504fe)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/33450a6e-4b14-4dbb-bc24-42a933a435a2)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/c547f745-d0b9-4c11-9529-4ad9fb5c587b)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/75e9afe4-3f8b-4ea6-8cd7-4c153b278789)
+<br><br/>
+Install Docker 
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/a6f12396-85fb-49f3-aca5-a493c6c40b13)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/9adb48dd-745f-4ce6-b8e8-43e9b3710d52)
 
 <br><br/>
 Create three service connections as shown in the screenshot below
