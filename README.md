@@ -58,6 +58,9 @@ Copy kubeconfig from Terraform-Server to Azure DevOps Self-Hosted Agent and Inst
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/5346b8cc-27f9-43c6-a36b-1fe71e0a6d35)
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/1237dd0b-fcb1-49e7-a4f9-f51bad1d3ad7)
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/5e8ee499-017d-4bc9-9738-c3836f5edc1a)
+<br><br/>
+Install trivy for Docker Image Scan
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/c6311f90-26cb-4296-8205-5859b6bf9613)
 
 <br><br/>
 Create three service connections as shown in the screenshot below
@@ -77,6 +80,8 @@ Adding below lines to pom.xml for storing Artifacts to Azure Artifactory
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/b51e5a2d-3c8a-4b1c-9dd4-d9fb4fc52559)
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/9fe4e40f-3ad6-46dc-8205-c4e8b793b1a0)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/90cf1b03-ae95-49af-be01-e42c26f33a9c)
+
 <br><br/>
 Add endpoint, username and password of MySQL RDS to the file login.jsp and userRegistration.jsp as shown in the screenshot below
 <br><br/>
