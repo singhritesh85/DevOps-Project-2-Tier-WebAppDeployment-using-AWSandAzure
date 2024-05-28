@@ -38,6 +38,21 @@ Install Maven
 Install Docker 
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/a6f12396-85fb-49f3-aca5-a493c6c40b13)
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/9adb48dd-745f-4ce6-b8e8-43e9b3710d52)
+<br><br/>
+Install self hosted agent pool (You can create self hosted agent pool either at Organisation level or at project level)
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/15db7543-8241-4520-b184-9c6fab24136c)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/7db89579-de30-4c40-8085-c420c71d5df4)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/eebea397-3b00-41ba-b94d-5664facfd37b)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/1ebf597f-4ff7-407d-9606-33ccd0b7e674)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/b4307317-70a5-445e-8030-4f86021191f7)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/024fb9f1-33c6-4c89-b9fe-057e904dbf5d)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/fe055dd7-f512-4465-9cbc-6eae43e81e21)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/7d540cc0-31ed-4ae6-b355-495e9e35d359)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/a122a6a4-2f61-48af-a72a-0af6ec48ec39)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/ba7886d6-f2b0-4c7d-b597-e491712b2c7b)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/d5f93b86-b8e0-44c5-a6c1-5ff06a2001d1)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/ad15d30b-12af-42cf-833e-185121845427)
 
 <br><br/>
 Create three service connections as shown in the screenshot below
