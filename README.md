@@ -88,6 +88,21 @@ Add endpoint, username and password of MySQL RDS to the file login.jsp and userR
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/13a5164c-f0db-4916-9359-6792b6b77322)
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/391a16e1-901f-44ed-a119-1fc31a2667ba)
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/fb0aab1e-5e39-4add-918f-5fe3bb292d0d)
+<br><br/>
+**Prometheus and Grafana Configuration**
+<br><br/>
+Using Terraform Script Prometheus and Grafana has been installed and Prometheus is kept as a source for Grafana.
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/3308fb6a-f591-443a-9373-1b4f75ab2a53)
+<br><br/>
+Dashboard has been imported using the ID **3119** as shown in the screenshot below
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/68fe2877-1e09-4b85-9b21-f0b410f56fb2)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/53835ba3-8606-45fe-bdd0-ec0d7699d807)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/7cfd4a93-dc88-4cda-b893-d74097ca8b23)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/b2f56180-d33d-4546-8250-39f40935ffcf)
+
+
+
 
 
 
