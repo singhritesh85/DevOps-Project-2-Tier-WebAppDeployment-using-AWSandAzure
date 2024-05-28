@@ -16,6 +16,15 @@ kubectl create secret docker-registry devopsmelacr132827a7-auth --docker-server=
 kubectl create secret tls ingress-secret --key mykey.key --cert STAR_singhritesh85_com.crt -n demo
 ```
 <br><br/>
+**Follow below steps to make your Azure DevOps Agent ready.**
+<br><br/>
+Install git2 
+
+Create a user demo and provide sudo privileges from sudoers file.
+
+Install Java-17
+
+<br><br/>
 Create three service connections as shown in the screenshot below
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/1f8d2456-cb14-40c8-8936-892b5b0cc4ec)
