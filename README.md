@@ -53,6 +53,11 @@ Install self hosted agent pool (You can create self hosted agent pool either at 
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/ba7886d6-f2b0-4c7d-b597-e491712b2c7b)
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/d5f93b86-b8e0-44c5-a6c1-5ff06a2001d1)
 ![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/ad15d30b-12af-42cf-833e-185121845427)
+<br><br/>
+Copy kubeconfig from Terraform-Server to Azure DevOps Self-Hosted Agent and Install kubectl and helm
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/5346b8cc-27f9-43c6-a36b-1fe71e0a6d35)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/1237dd0b-fcb1-49e7-a4f9-f51bad1d3ad7)
+![image](https://github.com/singhritesh85/DevOps-Project-2-Tier-WebAppDeployment-using-AWSandAzure/assets/56765895/5e8ee499-017d-4bc9-9738-c3836f5edc1a)
 
 <br><br/>
 Create three service connections as shown in the screenshot below
