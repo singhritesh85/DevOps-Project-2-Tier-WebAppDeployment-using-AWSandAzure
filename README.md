@@ -107,4 +107,5 @@ Add endpoint, username and password of MySQL RDS to the file login.jsp and userR
 ```
 https://ashok198510.hashnode.dev/cloud-native-two-tier-application-deployment-with-eks-tomcat-and-rds-in-aws
 https://github.com/Ashoksana/aws-rds-java
+https://medium.com/@abiolamajekodunmi2011/implementing-secure-and-observant-3-tier-deployments-on-aws-using-terraform-eks-jenkins-ea2572d239e1
 ```
