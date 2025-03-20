@@ -1,0 +1,26 @@
+# kubectl create secret tls ingress-secret --key mykey.key --cert STAR_singhritesh85_com.crt -n monitoring
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: grafana-ingress
+  namespace: monitoring
+  annotations:
+    appgw.ingress.kubernetes.io/ssl-redirect: "true"
+spec:
+  ingressClassName: azure-application-gateway
+  tls:
+#  - hosts:
+#    - dexter.singhritesh85.com
+  - secretName: ingress-secret
+  rules:
+  - host: grafana.singhritesh85.com
+    http:
+      paths:
+      - path: /
+        backend:
+          service:
+            name: grafana
+            port:
+              number: 3000
+        pathType: Prefix
